@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>스타일과 글로벌 속성</title>
+    <style>
+        /* *은 전체 선택자, body 로 작성하곤 함 */
+        *{
+            background-color: hotpink;
+            color: white;
+        }
+        /*스타일 주석  h1,body 태그 선택자*/
+        h1{
+            background-color: #ffd5e7;
+            color: aqua;
+        }
+        /* #: id 선택자는 문서에 오직 한개의 이름만 존재 */
+        #list{
+            text-decoration: underline;
+        }
+        /* .: class 선택자는 문서에 같은 이름이 여러개 존재(그룹)*/
+        ul>li.blue{
+            color: aquamarine;
+        }
+        /*선태자는 점수가 존재해서 우선순위를 바꿀수 있다.
+            #:100점
+            .: 10점
+            tag:1점
+        */
+        .blue{
+            color: blue;
+        }
+    /* 스타일 태그로 스타일을 적용하는 것을 인터스타일(문서내부)이라 함   */
+    </style>
+</head>
+<body>
+    <h1>스타일과 글로벌 속성</h1>
+    <h2>CSS</h2>
+    <ul>
+        <li id="list">부모의 스타일이 자식이 적용된 Cascading</li>
+        <li>자식의 스타일이 우선 적용됨 (우선순위)</li>
+        <li>선택자 적용 우선 순위</li>
+        <li>내부스타일 보다 인라인 스타일이 우선 적용 (적용우선순위)</li>
+    </ul>
+
+<!--h2#title 에밋 자동완성 플러그인은 css 선택자와 같다-->
+    <h2 id="title">글로벌 속성 id, class</h2>
+    <ul>
+        <li class="blue">1리스트</li>
+        <li class="blue">2리스트</li>
+        <li class="blue"
+            style="color: red"
+        >3리스트</li>
+    </ul>
+</body>
+</html>
