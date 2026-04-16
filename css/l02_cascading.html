@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>스타일 상속과 우선순위에 대해 알아보자</title>
+    <link rel="stylesheet" href="./l02.css">
+    <style>
+        /*0점*/
+        *{
+            color: blue;
+            /*color: blue !important; 1000점*/
+        }
+        /*2점*/
+        ul>li{
+            color: black;
+        }
+        /*11점*/
+        .list>li{
+            color: darkgray;
+        }
+        /*101*/
+        #selectorList>li{
+            color: #833f10;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>스타일 상속과 우선순위에 대해 알아보자</h1>
+    <hr>
+    <h2 style="color: hotpink">스타일 적용 방법</h2>
+    <ul class="list">
+        <li>외부 스타일을 link 로 참조</li>
+        <li>내부에 스타일 태그를 작성</li>
+        <li>요소에 직접 작성</li>
+    </ul>
+    <h2>선택자 우선 순위 (하극상 불가)</h2>
+    <ul id="selectorList" class="list">
+        <li>* : html 문서 전체  0점</li>
+        <li>tag : 요소 선택자 1점</li>
+        <li>. :  클래스 선택자 10점 </li>
+        <li># : 아이디 선택자 100점</li>
+        <li style="color: red">요소에 직접 : 1000점</li>
+        <li>!important : 10000점</li>
+    </ul>
+</body>
+</html>
