@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>요소를 화면에서 보이지 않게 하기</title>
+</head>
+<style>
+  .box{
+    width: 200px;
+    height: 200px;
+    background-color: #ffd5e7;
+    border: 3px solid salmon;
+    /*수치가 있는 속성은 변화를 애니매이션으로 생성*/
+    transition: 1s linear all;
+  }
+</style>
+<body>
+  <h1>요소를 화면에서 보이지 않게 하기</h1>
+  <hr>
+  <div class="box" id="displayNone">
+    display:none (요소가 사라짐)
+  </div>
+  <hr>
+  <div class="box" id="visibilityHidden">
+    visibility: hidden (위치는 계산되지만 보이지 않음)
+  </div>
+  <hr>
+  <div class="box" id="opacityZero">
+    opacity: 0 (존재하지만 투명함 (0~100%))
+  </div>
+  <hr>
+  <div class="box" id="scaleZero">
+    transform: scale(0)
+    (스타일 변경시 돔 개체의 레이아웃을 다시 계산하는데
+    transform 속성은 계산없이 반영해서 반영속도가 빠름
+    )
+  </div>
+  <hr>
+  <script>
+    scaleZero.onclick=function (){
+      // this.style.transform.scale=0;
+      this.style.transform="scale(0)"
+    }
+    displayNone.onclick=function(){
+      this.style.display="none";
+    }
+    visibilityHidden.onclick=()=>{
+      // alert(visibilityHidden.style.visibility)
+      visibilityHidden.style.visibility="hidden";
+    }
+    opacityZero.onclick=function (){
+      if(opacityZero.style.opacity=="0"){
+        opacityZero.style.opacity="100%";
+      }else{
+        opacityZero.style.opacity="0";
+      }
+    }
+  </script>
+</body>
+</html>
