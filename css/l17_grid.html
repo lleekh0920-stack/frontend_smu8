@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>그리드 시스템에 대해 알아보자</title>
+    <style>
+        .grid-container {
+            display: grid;
+            /*grid-template-columns: 1fr 2fr 1fr;*/
+            /*grid-template-columns: auto auto auto auto;*/
+            grid-template-columns: repeat(3,1fr);
+            background: #ffd5e7;
+            border: 1px solid blueviolet;
+        }
+        .grid-container>div{
+            background: darkseagreen;
+            border: 1px solid olive;
+            height: 5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>그리드 시스템에 대해 알아보자</h1>
+    <div class="grid-container">
+        <div>01item</div>
+        <div>02item</div>
+        <div>03item</div>
+        <div>04item</div>
+        <div>05item</div>
+        <div>06item</div>
+        <div>07item</div>
+        <div>08item</div>
+        <div>09item</div>
+        <div>10item</div>
+        <div>11item</div>
+        <div>12item</div>
+    </div>
+    <hr>
+    <div class="grid-container"
+        style="grid-gap: 1em 2em;">
+        <div>01item</div>
+        <div>02item</div>
+        <div>03item</div>
+        <div>04item</div>
+        <div>05item</div>
+        <div>06item</div>
+        <div>07item</div>
+        <div>08item</div>
+        <div>09item</div>
+    </div>
+    <hr>
+    <div class="grid-container"
+         style="gap: 1em 2em;">
+        <div>01item</div>
+        <div>02item</div>
+        <div>03item</div>
+        <div>04item</div>
+        <div>05item</div>
+        <div>06item</div>
+        <div>07item</div>
+        <div>08item</div>
+        <div>09item</div>
+    </div>
+    <hr>
+    <style>
+        div:has(.box){
+            display: grid;
+            grid-template-columns: repeat(2,4em);
+            grid-template-rows: 4em 8em;
+            background: #833f10;
+            border: 1px solid black;
+            grid-gap: 1em;
+            justify-content: center;
+            height: 20em;
+            /*align-items: center;*/
+            align-content: center;
+        }
+        .box{background: #c5c5f3;}
+    </style>
+    <div>
+        <div class="box">01</div>
+        <div class="box">02</div>
+        <div class="box">03</div>
+        <div class="box">04</div>
+    </div>
+    <hr>
+    <div>
+        <div class="box" style="order: 4">01</div>
+        <div class="box" style="order: 2">02</div>
+        <div class="box" style="order: 1">03</div>
+        <div class="box" style="order: 3">04</div>
+    </div>
+    <hr>
+    <div>
+        <div class="box" style="grid-column: 1 / span 2">01</div>
+        <div class="box">02</div>
+        <div class="box">03</div>
+        <div class="box">04</div>
+    </div>
+    <hr>
+    <div>
+        <div class="box" style="grid-column-start: 1; grid-column-end: 3">01</div>
+        <div class="box">02</div>
+        <div class="box">03</div>
+        <div class="box">04</div>
+    </div>
+    <hr>
+    <div>
+        <div class="box" style="grid-row: 1 / span 3">01</div>
+        <div class="box">02</div>
+        <div class="box">03</div>
+        <div class="box">04</div>
+    </div>
+    <div>
+        <div class="box" style="grid-column: 2 / 3; grid-row: 2/5">01</div>
+        <div class="box">02</div>
+        <div class="box">03</div>
+        <div class="box">04</div>
+        <div class="box">05</div>
+        <div class="box">06</div>
+    </div>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
