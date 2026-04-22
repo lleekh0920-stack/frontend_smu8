@@ -31,12 +31,44 @@
                 background-color: black;
             }
         }
+        .wrap:hover>.ex2{
+            animation: ex2-ani 2s linear;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes ex2-ani {
+            0%{
+                transform: translateX(1em);
+                background-color: white;
+            }
+            100%{
+                transform: translateX(calc(100vw - 6em));
+                background-color: black;
+            }
+        }
     </style>
+
 </head>
 <body>
     <h1>animation 속성으로 복잡한 애니매이션을 만들어보자</h1>
     <div class="wrap">
         <div class="box ex1"></div>
     </div>
+    <h2>animation-fill-mode 로 애니매이션의 시작과 종료 상태를 지정</h2>
+    <div class="wrap">
+        <div class="box ex2"></div>
+        <div style="animation-fill-mode: forwards" class="box ex2">forwards</div>
+        <div style="animation-fill-mode: backwards" class="box ex2">backwards</div>
+        <div style="animation-fill-mode: both" class="box ex2">both</div>
+    </div>
+    <h2>animation-direction 으로 방향을 지정하자</h2>
+    <div class="wrap">
+        <div class="box ex2"></div>
+        <div style="animation-direction: reverse" class="box ex2"></div>
+        <div style="animation-direction: alternate" class="box ex2"></div>
+        <div style="animation-direction: alternate-reverse" class="box ex2"></div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>
