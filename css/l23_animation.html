@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>animation 속성으로 복잡한 애니매이션을 만들어보자</title>
+    <style>
+        .box{
+            width: 6em;
+            height: 6em;
+            border: 2px solid olive;
+            background-color: lightgreen;
+        }
+        .ex1:hover{
+            animation-name: move-box;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes move-box {
+            20%{
+                background-color: red;
+                transform: rotate(30deg);
+            }
+            40%{
+                background-color: blue;
+                transform: translateX(100%);
+            }
+            60%{
+                background-color: purple;
+            }
+            100%{
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>animation 속성으로 복잡한 애니매이션을 만들어보자</h1>
+    <div class="wrap">
+        <div class="box ex1"></div>
+    </div>
+</body>
+</html>
