@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{} 중괄호로 영역을 만들자</title>
+</head>
+<body>
+  <h1>{} 중괄호로 영역을 만들자</h1>
+  <ul>
+    <li>같은 이름의 식별자를 영역 마다 작성하면 다른
+      식별자가 된다.</li>
+    <li>영역 내부에 부모와 같은 식별자가 없다면
+      부모의 것을 사용</li>
+    <li>형제간에는 식별자를 공유하지 않음</li>
+  </ul>
+  <script>
+    //루트 > 부모 > 자식 (형제)
+    //루트영역
+    let a=10; //루트 최상위 영역에 a 를 선언
+    {
+      let a=20; //자식 영역에 a 를 선언
+      console.log("자식의 a",a)
+    }
+    {
+      {
+        console.log(a);
+      }
+    }
+    console.log("루트의 a",a);
+  </script>
+  <hr>
+  <script>
+    const PI=3.14;
+    {
+      //console.log(PI);
+      //Cannot access 'PI' before initialization
+      //자식에서 부모식별자와 동일한 식별자를
+      //작성하면 부모식별자를 사용할 수없다
+      const PI=3.1415;
+      console.log(PI)
+    }
+    {
+      console.log(PI)
+    }
+
+    {
+      let b=10000000;
+    }
+    {
+      console.log(b);
+      //형제간의 식별자 공유를 할 수 없다.
+    }
+    //모든 프로그래밍에서 통용되는 식별자와 스코프
+  </script>
+</body>
+</html>
