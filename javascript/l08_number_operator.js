@@ -39,8 +39,10 @@ let f=true;
 console.log(Number(f));//true == 1
 f=false;
 console.log(Number(f));//false == 0
+//console.log(fffff);
 s="삽십삼점육육";
 console.log(Number(s)) //NaN
 //숫자가 아닌 것을 수로 바꾸려는 에러인 상태
 // 에러를 발생시키지 않는 이유가 무엇일까??
-
+// 오류(error)는 프로그램을 종료시킴
+// NaN 인 상태는 프로그램을 종료시키지 않음!
