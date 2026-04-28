@@ -39,6 +39,7 @@ let f=true;
 console.log(Number(f));//true == 1
 f=false;
 console.log(Number(f));//false == 0
+//console.log(fffff);
 s="삽십삼점육육";
 console.log(Number(s)) //NaN
 //숫자가 아닌 것을 수로 바꾸려는 에러인 상태

@@ -6,7 +6,6 @@ console.log()
 console.log()
 console.log()
 console.log()
-
 a=0;
 b=1;
 c="1";
@@ -33,6 +32,7 @@ console.log(undefined==null); //false
 console.log(Number("안녕!!"));
 console.log("안녕!!">1);
 console.log(NaN==NaN); //false
+
 console.log(Number.isNaN(NaN)) // NaN인지 확인
 console.log(Number.isNaN("이십"))//NaN인지 확인
 console.log(isNaN("이십")); // 해당 데이터가 수로 형변환이 안되니?

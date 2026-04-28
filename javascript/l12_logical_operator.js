@@ -21,12 +21,9 @@ console.log(result);
 result= ++a<b && ++a<b && ++a<b;
 console.log(result,a);
 // && 는 falser 가 하나라도 있으면 false 기 때문에 false 발견시 연산 종료
-result= b>c && ++b<c && ++b<c && ++b<c;
-console.log(result,b);
 
 
 //해당 문자열이 NaN가 아니면 수로 형변환
 let str="sdfafdadfa";
 let n=Number(!isNaN(str) && Number(str));
 console.log(str,n)
-
