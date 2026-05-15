@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>l42_async 동기와 비동기에 대해 알아보자</title>
+</head>
+<body>
+    <h1>동기와 비동기에 대해 알아보자</h1>
+
+    <script>
+        //동기
+        let a=10;
+        let b=20;
+        console.log(a+b);
+        // 코드가 순서대로 실행되어 동기화됨
+        window.setTimeout(()=>{
+            a=20;
+            b=30;
+        });
+        console.log(a+b); // 50
+        //코드가 순서대로 실행되지 않는 것
+
+        // while(true){
+        //
+        // }
+        // console.log("벗어나면 실행되는 코드")
+        // js는 순차적 언어이고 코드간의 동기화가 되어있기 때문에
+        // 무한 반복문이 있다면 그다음 코드가 실행되지 않는다.
+        //
+        // let str="";
+        // for(let i=0; i<100; i++){
+        //     str+=i;
+        // }
+        // console.log(str)
+    </script>
+
+</body>
+</html>

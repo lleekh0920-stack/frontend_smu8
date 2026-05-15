@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>js 시작하자!</title>
+</head>
+<body>
+    <h1 id="title">js 시작하자!</h1>
+    <h2>script 실행순서와 DomTree</h2>
+    <ul>
+        <li>html 문서를 읽어서 개체로 생성한다.</li>
+        <li>문서에 스크립트가 포함이 되어 있다면 개체로 만들지 않고 js 엔진이 실행 </li>
+        <li>만약 요소를 노드개체로 생성할때 id가 있다면 script 로 사용할 식별자(변수) 생성</li>
+    </ul>
+    <script>
+        //주석 스크립트 내부
+        console.log("안녕!!");
+        //Systme.out.print("안녕!");
+        //script 에서 title 변수를 사용가능
+        console.log(title);
+        title.onclick=function(){
+            title.style.color="red";
+        }
+        console.log(exBox); //exBox는 스크립트보다 나중에 생성되어 존재하지 않음
+    </script>
+    <div id="exBox"></div>
+
+
+</body>
+</html>

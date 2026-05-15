@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>변수에 대해 알아보자</title>
+  <script src="./l03_variable.js" defer></script>
+</head>
+<body>
+  <h1>변수에 대해 알아보자</h1>
+  <ul>
+    <li>변수: 재사용하기 위한 데이터를 담는 그릇(식별자)</li>
+    <li>let 식별자; : 변수 생성 (같은 이름의 식별자를 2번 선언불가)</li>
+    <li>변수는 다른 데이터를 참조가능</li>
+    <li>변수 선언(생성) 이전에 사용불가 (절차적언어)</li>
+  </ul>
+  <h2>변하지 않는 수 상수 const (final)</h2>
+  <p>변수와 특징이 같은데 처음 선언할때 대입한 데이터를 바꾸지 못한다.</p>
+  <script>
+    let b;
+    //let b; //Identifier 'b' has already been declared
+    console.log("안녕~~")
+    //console.log(a)
+    //const c; //상수는 처음에 데이터를 꼭 대입해야합니다.
+    const c="상수입니다.";
+    //c=""; //Assignment to constant variable.
+    console.log(c)
+  </script>
+</body>
+</html>

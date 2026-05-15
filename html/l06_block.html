@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>블러요소와 인라인 요소</title>
+</head>
+<body>
+  <h1>블럭요소와 인라인 요소</h1>
+  안녕!!
+  <p>
+    마지막 블럭요소
+    <p>p요소는 다른 블럭요소를 자식으로 두지 않는다.</p>
+  </p>
+  <header>
+    div와 같은데 header의 레이아웃임을 명시적 표현
+  </header>
+<!--  main,footer article,nav... 의미론적태그 div 인데 명시적 의미만 존재-->
+  <div>
+    <h2>레이아웃을 작성하기 위해 존재하는 div</h2>
+    <div>
+      <div>
+        <div>
+          <div>div 는 빈블럭으로 여러 블럭을 중첩할 수 있다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2>테이블을 작성할 수 있는 블럭요소</h2>
+  <style>
+     table, th, td {
+      /*border: 1px solid black;*/
+       border-collapse: collapse;
+    }
+     tr{
+       border: 1px solid black;
+     }
+     tr:hover{
+       background-color: #ffd5e7;
+     }
+     tr:active{
+       background-color: hotpink;
+     }
+  </style>
+  <table>
+    <tr>
+      <th>아이디</th><th>이름</th><th>전화번호</th>
+    </tr>
+    <tr><td>1234</td><td>경민</td><td>010-1111-1111</td></tr>
+    <tr><td>1234</td><td>경민</td><td>010-1111-1111</td></tr>
+    <tr><td>1234</td><td>경민</td><td>010-1111-1111</td></tr>
+    <tr><td>1234</td><td>경민</td><td>010-1111-1111</td></tr>
+    <tr><td>1234</td><td>경민</td><td>010-1111-1111</td></tr>
+    <tr><td>1234</td><td>경민</td><td>010-1111-1111</td></tr>
+  </table>
+
+</body>
+</html>

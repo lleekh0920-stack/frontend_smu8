@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>fixed 와 viewport 에 대해 알아보자</title>
+</head>
+<body>
+  <h1>fixed 와 viewport 에 대해 알아보자</h1>
+  <div style="height: 3000px; background-color: #c5c5f3;">
+    <div style="background-color: red; height: 50vh;">box</div>
+  </div>
+  <style>
+    .circle_btn{
+      background-color: black; color: white;
+      width: 4rem; height: 4rem; line-height: 4rem;
+      text-align: center;
+      font-size: 3rem;
+      border-radius: 50%;
+    }
+   /* 상태를 나타내는 선택자 의사클래스  */
+    .circle_btn:hover{
+      background-color: #b0b0b0;
+    }
+    .circle_btn:active{
+      background-color: white;
+      color: black;
+    }
+  </style>
+<!-- absolute : 문서 중심의 위치 고정, fixed : view 중심의 위치 고정 -->
+  <div class="circle_btn" style="
+  position: fixed;
+  bottom: 2rem; right: 2rem; ">
+    +
+  </div>
+
+</body>
+</html>

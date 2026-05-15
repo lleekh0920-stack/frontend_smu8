@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>트랜지션으로 애니메이션 만들기</title>
+    <style>
+        .box{
+            width: 5em;
+            height: 5em;
+            padding: 1em;
+            margin: 1em;
+            border: 1px solid hotpink;
+            background: pink;
+        }
+        .ex1{
+            transition-delay: 0ms, 1s;
+            transition-duration: 100ms,2s;
+            transition-property: background-color, transform;
+            transition-timing-function: linear,cubic-bezier(0,2.17,1,-1.1);
+        }
+        .ex1:hover{
+            /*width: 6em;*/
+            /*height: 6em;*/
+            transform: scale(1.2);
+            transform-origin: bottom right;
+            background: hotpink;
+        }
+        .ex1:active{
+            background-color: #ff0082;
+        }
+        .ex2{
+            transition: 1s linear all;
+            position: relative;
+            left: 0;
+        }
+        .wrap:hover>.ex2{
+            left: 500px;
+        }
+
+        .ex3{
+           transition: 1s linear all;
+        }
+        .wrap:hover>.ex3{
+            transform: translateX(500px) rotate(90deg) scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>트랜지션으로 애니메이션 만들기</h1>
+    <hr>
+    <div>
+        <div class="box ex1"></div>
+    </div>
+    <hr>
+    <h2>최초에 수치가 없는 속성은 애니매이션이 안된다(transform 제외)</h2>
+    <div class="wrap">
+        <div class="box ex2">relative 이동</div>
+        <div class="box ex3">translate 이동</div>
+    </div>
+    <hr>
+    <h2>세로로 늘어나는 메뉴 바</h2>
+    <style>
+        #menuBar{
+            display: flex;
+            background-color: darkseagreen;
+            /*transform: scaleY(.2);*/
+            max-height: 40px;
+            overflow: hidden;
+            transition: 500ms linear all;
+        }
+        #menuBar:hover{
+            max-height: 999px;
+        }
+    </style>
+    <nav id="menuBar">
+        <ul>
+            <li>01메뉴</li>
+            <li>02메뉴</li>
+            <li>03메뉴</li>
+            <li>04메뉴</li>
+        </ul>
+        <ul>
+            <li>01메뉴</li>
+            <li>02메뉴</li>
+            <li>03메뉴</li>
+            <li>04메뉴</li>
+        </ul>
+    </nav>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한줄의 레이아웃을 flex 로 정렬하자!</title>
+</head>
+<style>
+  ul{
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+    background-color: #ffd5e7;
+    display: flex;
+    flex-direction: row;
+  }
+  li{
+    /*float: left;*/
+    background-color: #c5c5f3;
+    padding: 1em;
+    border: 1px solid;
+    /*width: 20%;*/
+    flex-grow: 1;
+  }
+  li:nth-child(3){
+    flex-grow: 2;
+  }
+</style>
+<body>
+  <h1>한줄의 레이아웃을 flex 로 정렬하자!</h1>
+  <ul>
+    <li>01</li>
+    <li>02</li>
+    <li>03</li>
+    <li>04</li>
+    <li>05</li>
+  </ul>
+  <hr>
+</body>
+</html>

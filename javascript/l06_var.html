@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>스코프를 무시하는 오래된 변수 var</title>
+</head>
+<body>
+  <h1>스코프를 무시하는 오래된 변수 var</h1>
+  <script>
+    {
+      {
+        {
+          var a="var a 입니다.";
+          let i="let i 입니다.";
+        }
+      }
+    }
+    console.log(a);//자식에 선언해도 전역에 선언됨
+    //console.log(i)
+    var b="전역 var b";
+    let c="전역 let c";
+    {
+      var b="지역 var b";
+      let c="지역 let c";
+    }
+    console.log(b); //지역 전역 구분이 없음
+    console.log(c); //지역 전역 구분이 있음
+
+    var d=10;
+    var d=20;
+    var d=30;
+    //var 은 선언식(식별자 생성)이 존재하지 않음
+    let e=10;
+    //let e=20;
+    //js 실행컨텍스트가 js 코드를 실행하기 전에
+    //var 로 선언된 변수가 있는지 먼저 찾아보고
+    //있으면 전역 식별자(브라우저window의필드)로 생성
+    //-> Hoisting (끌어당겨서 맨위로 올림)
+    console.log(f) //undefined
+    var f=3.33;
+    console.log(f)
+    console.log(window.f)
+    //console.log(g) //오류
+    let g=4.44;
+
+    //변수 -> 데이터 재사용
+    //함수 -> 실행할 목록을 재사용
+    //함수는 hoisting으로 식별자가
+    // 전역에서 선언됨
+    console.log(sum(1111,2222))
+    //sum 이라는 이름의 함수 식별자 생성
+    function sum(a,b){
+      return a+b;
+    }
+    console.log(sum(1111,2222))
+  </script>
+</body>
+</html>

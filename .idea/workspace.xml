@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eff3b353-9d3d-42db-8254-bd20397c1886" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l01_external.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l01_hello_css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l02.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l02_cascading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l03_block_inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l04_box_model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l05_unit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l06_overflow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l07_display_none.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l08_background.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l09_position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l10_absolute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l11_fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l12_sticky.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l13_float.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l14_flex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l15_justify_contents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l16_flex_item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l17_grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l18_grid_areas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l19_media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l20_media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l21_media_grid_areas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l22_transition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/l23_animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/homework/h01_img_card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/homework/h02_signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l01_hello_html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l02_attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l03_rule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l04_style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l05_box.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l06_block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l07_inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l08_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/l09_src_path.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/ex/ex_ifElseSwitch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l01_hello_js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l02_ex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l02_ex2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l02_script.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l03_variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l03_variable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l04_data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l05_scope.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l06_var.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l07_var_scope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l08_number_operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l09_string_operatior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l09_string_operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l10_boolean_operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l11_falsy_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l12_logical_operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l13_array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l14_array_method.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l15_array_method2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l16_method.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l17_method_hoisting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l18_method_expression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l19_object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l20_type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l21_object_method.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l22_object_vs_array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l23_if_else.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l23_if_else.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l24_elseif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l25_ternary_operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l26_switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l27_while.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l28_for.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l29_iterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l30_for_in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l31_array_method_iterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l32_dom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l33_event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l34_addEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l35_class_attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l36_computed_style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l37_assign_style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l38_event_propagation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l39_mouse_over_enter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l40_insert_html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l41_review.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l42_async.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l43_interval.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l44_this_bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l45_arrow_this.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l46_window_this.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l47_prototype.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l47_prototype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l48_review.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l49_strict_mode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l50_prototype_review.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l51_ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l51_users.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l52_xmlhttprequest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l53_json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l54_json_stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l55_json_advance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l56_fetch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l57_promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l58_promise_chaining.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l59_promisfetch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l60_exception.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l61_throw_exception.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l62_promise_reject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l63_reivew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l63_review.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l64_async_await.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l65_async_resolve.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l66_async_return.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l67_async_catch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l68_promise_all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/l69_review.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S01VariableAndData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S02LetContVarScope.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S03NumberOperator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S04BooleanOperator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S05FloatData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S06String.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S07Array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S08Function.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S09Object.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S10IfElseSwitch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S11ForWhile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S12ThisBinding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S13PrototypeExtends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S14DomTraversal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S15Event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S16BubblingCapturing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S17InsertNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S18ObjectClone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S19AsyncFunction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S20XMLHttpRequest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S21ArrayIterator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S22Promise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S23Fetch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S24AsyncFunction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S25Module.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S26Npm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S27typescript2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S28nodejs_http_server_lesson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S29expressjs_lesson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/lectures/S30React.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/l01_common_js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/l02_export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/l03_import.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/l04_module_export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/l05_module_import.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/l06_browser_module.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/l07_jquery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/lecture/S01Module.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mudule/lecture/S02Npm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/study.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img_2.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="167" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CjimnN7x3ZiRnsRgz66QNl9FfT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript 디버그.S10IfElseSwitch.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 디버그.S11ForWhile.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 디버그.l06_browser_module.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 디버그.l32_dom.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 디버그.l62_promise_reject.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 디버그.l65_async_resolve.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 디버그.l68_promise_all.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.ex_ifElseSwitch.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l01_math.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l02_export.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l03_import.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l04_module_export.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l05_module_import.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l09_string_operatior.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l10_boolean_operator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l11_falsy_data.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l12_logical_operator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l13_array.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l14_array_method.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l15_array_method2.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l16_method.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l20_type.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l21_object_method.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l22_object_vs_array.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l24_elseif.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l25_ternary_operator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l26_switch.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l27_while.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l28_for.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l29_iterator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l30_for_in.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l31_array_method_iterator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l44_this_bind.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l45_arrow_this.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l48_review.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l49_strict_mode.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l50_prototype_review.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l53_json.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l55_json_advance.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l60_exception.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l61_throw_exception.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l63_review.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l64_async_await.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l66_async_return.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.l67_async_catch.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KOSMO\WebstormProjects\smu8_frontend_20260413\javascript\lectures" />
+      <recent name="C:\Users\KOSMO\WebstormProjects\smu8_frontend_20260413\mudule" />
+      <recent name="C:\Users\KOSMO\WebstormProjects\smu8_frontend_20260413\javascript" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript 디버그.l06_browser_module.html">
+    <configuration name="l06_browser_module.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/smu8_frontend_20260413/mudule/l06_browser_module.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="l02_export.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../frontend_smu8/mudule/l02_export.js" working-dir="$PROJECT_DIR$/../frontend_smu8/mudule">
+      <method v="2" />
+    </configuration>
+    <configuration name="l03_import.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../frontend_smu8/mudule/l03_import.js" working-dir="$PROJECT_DIR$/../frontend_smu8/mudule">
+      <method v="2" />
+    </configuration>
+    <configuration name="l04_module_export.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../frontend_smu8/mudule/l04_module_export.js" working-dir="$PROJECT_DIR$/../frontend_smu8/mudule">
+      <method v="2" />
+    </configuration>
+    <configuration name="l05_module_import.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../frontend_smu8/mudule/l05_module_import.js" working-dir="$PROJECT_DIR$/../frontend_smu8/mudule">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 디버그.l06_browser_module.html" />
+        <item itemvalue="Node.js.l05_module_import.js" />
+        <item itemvalue="Node.js.l04_module_export.js" />
+        <item itemvalue="Node.js.l03_import.js" />
+        <item itemvalue="Node.js.l02_export.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="eff3b353-9d3d-42db-8254-bd20397c1886" name="변경" comment="" />
+      <created>1776905541000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776905541000</updated>
+      <workItem from="1776905542184" duration="35000" />
+      <workItem from="1776911360177" duration="25000" />
+      <workItem from="1776915629225" duration="614000" />
+      <workItem from="1776991341169" duration="11198000" />
+      <workItem from="1777250991539" duration="6813000" />
+      <workItem from="1777337190594" duration="14530000" />
+      <workItem from="1777423311549" duration="12584000" />
+      <workItem from="1777509480711" duration="9660000" />
+      <workItem from="1777855786135" duration="11762000" />
+      <workItem from="1778028726536" duration="10899000" />
+      <workItem from="1778115155641" duration="11139000" />
+      <workItem from="1778200434715" duration="11649000" />
+      <workItem from="1778546584973" duration="12065000" />
+      <workItem from="1778633487342" duration="12348000" />
+      <workItem from="1778720314992" duration="10820000" />
+      <workItem from="1778749248963" duration="194000" />
+      <workItem from="1778806253829" duration="3132000" />
+      <workItem from="1778809584637" duration="498000" />
+      <workItem from="1778810114641" duration="50000" />
+      <workItem from="1778810182920" duration="196000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../frontend_smu8/javascript/l21_object_method.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

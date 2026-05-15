@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>이미지 카드 만들기</title>
+</head>
+<style>
+  #header-nav{
+    background-color: #ffd5e7;
+  }
+  #header-nav>ul{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  #header-nav>ul>li{
+    display:  inline-block;
+    padding: 5px;
+  }
+  .card{
+    width: 200px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+  }
+  .card>.content-wrap{
+    padding: 10px;
+  }
+  .card>.card-img>img{
+    width: 100%;
+  }
+  .card>.content-wrap>.like-wrap{
+    text-align: right;
+    margin: .1em 0;
+  }
+  .card>.content-wrap>.title{
+    margin: .5em 0;
+  }
+  .card>.content-wrap>.writer-wrap{
+    font-size: .6em;
+  }
+</style>
+<body>
+  <header>
+    <nav id="header-nav">
+      <ul>
+        <li><a href="./">home</a></li>
+        <li><a href="./blog">blog</a></li>
+        <li><a href="./user">user</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <article class="card">
+        <div class="card-img">
+          <img src="/src/img/img.png" alt="">
+        </div>
+        <div class="content-wrap">
+          <p class="like-wrap">
+            <button>좋아요 6</button>
+            <button>싫어요 6</button>
+          </p>
+          <h4 class="title">
+            <a href="/detail.do">강아지가 뛰는 모습</a>
+          </h4>
+          <div class="writer-wrap">글쓴이 : 최경민 | 작성일 4월14일 13:13</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img">
+          <img src="/src/img/img.png" alt="">
+        </div>
+        <div class="content-wrap">
+          <p class="like-wrap">
+            <button>좋아요 6</button>
+            <button>싫어요 6</button>
+          </p>
+          <h4 class="title">
+            <a href="/detail.do">강아지가 뛰는 모습</a>
+          </h4>
+          <div class="writer-wrap">글쓴이 : 최경민 | 작성일 4월14일 13:13</div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+</body>
+</html>

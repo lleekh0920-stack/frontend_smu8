@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>flex 로 정렬하기</title>
+  <style>
+    body{
+      margin: 0; padding: 0;
+    }
+    #topNav{
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+    }
+    #topNav>ul{
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-evenly;
+      width: 400px;
+      height: 5em;
+      align-items: center;
+    }
+    #topNav a{
+      color: white;
+      text-decoration: none;
+    }
+    #topNav>ul>li{
+      padding: .5em;
+    }
+    /*#topNav>ul>li{*/
+    /*  padding: .5em;*/
+    /*  !*float: left;*!*/
+    /*  display: inline-block;*/
+    /*  width: 19%;*/
+    /*  box-sizing: border-box;*/
+    /*}*/
+    /*#topNav>ul{*/
+    /*  width: 400px;*/
+    /*  margin: 0 auto;*/
+    /*}*/`
+    /*#topNav>ul::after{*/
+    /*  content: "";*/
+    /*  display: block;*/
+    /*  clear: left;*/
+    /*}*/
+  </style>
+</head>
+<body>
+  <h1>flex 로 정렬하기</h1>
+  <h2>상단 고정 네비게이션 만들기</h2>
+  <nav id="topNav">
+    <ul><li><a href="">스토어</a></li>
+      <li><a href="">Mac</a></li>
+      <li><a href="">IPad</a></li>
+      <li><a href="">IPone</a></li>
+      <li><a href="">Watch</a></li>
+    </ul>
+  </nav>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

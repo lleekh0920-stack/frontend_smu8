@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트의 데이터</title>
+</head>
+<body>
+  <h1>자바스크립트의 데이터</h1>
+  <script>
+    //number 수 정수, 실수
+    let i=10;
+    console.log(i)
+    console.log(typeof 10) //number
+    console.log(typeof 10.0) //number
+    console.log(i/3)//3.3333333333333335
+    //string 문자열 (문자 타입이 없다)
+    let c="ABC";
+    c='A'+i+'BC'; //일반적은 문자열 더하기
+    console.log(c)
+    c=`AB${i}C`;//템플릿 리터럴
+    console.log(c)
+    //'', "", `` : 문자열 데이터 선언
+
+    c="안녕하세요!\n" +
+            "최경민 강사입니다." +
+            "자바스크립트 수업이에요~!";
+    console.log(c)
+    c=`안녕!!
+    템플릿 리터럴이야~
+    난 라인개행을 마음대로 써!`;
+    console.log(c)
+    //비교연산의 결과
+    //===,!==, ==, !=, >, <, >=, <=
+    let b=true;
+    b=false;
+    b=10>3;
+    console.log("10>3",b);
+    b=("사과"==`사과`);
+    console.log('"사과"==`사과`',b)
+    //==비교연산의 결과가 false 이면 둘중에 한개를
+    //같은 타입으로 형변환 후 비교
+    console.log("'10'==10",("10"==10))
+    //===형변환 없이 두개가 같은지 확인
+    console.log("'10'===10",("10"===10))
+    let n=null; //비어있다
+    console.log(n);
+    console.log(n+"hello");
+    console.log(n+10);
+    console.log(n==0);
+    let u; //undefined 정의되지 않음
+    //u=undefined; 사용권장하지 않음
+    console.log(u)
+    console.log(u+"dd")
+    console.log(u+10);//NaN
+    //null->0 으로 형변환 가능
+    //undefined->0으로 형변환 불가능NaN
+    console.log("10"-1);
+    console.log("십"-1);
+    //문자열 "십"은 수가 될수 없어! =NaN
+  </script>
+</body>
+</html>

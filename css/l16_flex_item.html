@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>flex box와 item에 대해 알아보자</title>
+    <style>
+        .flex-box{
+            display: flex;
+            background: darkseagreen;
+            border: 1px solid black;
+            justify-content: center;
+            height: 4em;
+            align-items: center;
+        }
+        .flex-box>div{
+            background: #ffd5e7;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .flex-box.grow-1>div{
+            flex-grow: 1;
+        }
+        .flex-box.basic-100>div{
+            flex-basis: 100px;
+        }
+        .flex-box.basic-200>div{
+            flex-basis: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>flex box와 item에 대해 알아보자</h1>
+    <div class="flex-box">
+        <div>01item</div>
+        <div>02item</div>
+        <div>03item</div>
+        <div>04item</div>
+        <div>05item</div>
+    </div>
+    <hr>
+    <div class="flex-box grow-1">
+        <div>01item</div>
+        <div style="flex-grow: 2">02item</div>
+        <div>03item</div>
+        <div>04item</div>
+        <div>05item</div>
+    </div>
+    <hr>
+    <div class="flex-box basic-100">
+        <div>01item</div>
+        <div>02item</div>
+        <div>03item</div>
+        <div>04item</div>
+        <div>05item</div>
+    </div>
+    <hr>
+    <div class="flex-box">
+        <div style="flex-grow: 1">01item</div>
+        <div style="flex-basis: 200px">02item</div>
+        <div style="flex-grow: 1">03item</div>
+        <div style="flex-grow: 1">04item</div>
+        <div style="flex-grow: 1">05item</div>
+    </div>
+    <h2>basis와 함께 작성하는 SHRiNK</h2>
+    <div class="flex-box basic-200">
+        <div style="flex-shrink: 1">01item</div>
+        <div style="flex-shrink: 4">02item</div>
+        <div style="flex-shrink: 1">03item</div>
+    </div>
+</body>
+</html>

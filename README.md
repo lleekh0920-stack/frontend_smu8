@@ -1,1 +1,1 @@
-# smu8_frontend_service_20260413
+# smu* _ 프론트앤드 수업

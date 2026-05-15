@@ -1,10 +1,19 @@
 {
-  "name": "${PROJECT_NAME}",
+  "dependencies": {
+    "temporal-polyfill": "^0.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "name": "frontend_smu8",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
